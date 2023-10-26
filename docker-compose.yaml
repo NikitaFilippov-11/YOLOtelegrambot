@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VERSION=${TAG}
+    image: telegramai/app:${TAG}

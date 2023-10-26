@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+  app:
+    volumes:
+      - app-logs:/usr/share/app/logs
+    networks:
+      backend: { aliases: [ app.backend ] }
+
+networks:
+  backend:
+    driver: bridge
+
+volumes:
+  app-logs:

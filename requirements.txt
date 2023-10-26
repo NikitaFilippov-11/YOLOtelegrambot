@@ -1,0 +1,8 @@
+# Base ----------------------------------------
+pyTelegramBotAPI>=3.0.0
+moviepy>=1.0.3
+
+# Logging -------------------------------------
+#tensorboard>=2.4.1
+#clearml
+#comet
